@@ -1,0 +1,311 @@
+body{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center /* Centre verticalement */
+
+}
+.CUW{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/cube_white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+.CUB{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/cube_black.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+
+}
+
+.COW{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/cone_white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+
+}
+
+.COB{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/cone_black.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+
+}
+.SPW{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/sphere_white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+
+}
+.SPB{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/sphere_black.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+
+}
+.CYW{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/cylindre_white.png");
+    background-position: center;
+    margin: 20px;
+
+}
+.CYB{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/cylindre_black.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+
+}
+.empty{
+    background-size:100%;
+    width: 80px;
+    height: 120px;
+    background-image: url("images/vide.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+
+}
+
+.pieces{
+    background-image: url("images/table.jpg");
+}
+button{
+    background-color: transparent;
+}
+.plateau {
+    background-image: url("images/table.jpg");
+
+}
+.victoire{
+    background-color: gold;
+    border-color: chartreuse;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+.bouton  {
+    background-color: saddlebrown !important;
+}
+
+section {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.back {
+    margin: 0; /* Réinitialiser les marges par défaut */
+    padding: 0; /* Réinitialiser les rembourrages par défaut */
+    background-image: url('images/backgroundQuantik.jpg'); /* Spécifier l'image de fond */
+    background-size: cover; /* Faire en sorte que l'image de fond couvre toute la fenêtre du navigateur */
+    background-position: center; /* Centrer l'image de fond horizontalement et verticalement */
+    background-attachment: fixed; /* Fixer l'image de fond afin qu'elle reste en place pendant le défilement */
+}
+.quantik{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 20px 60px;
+}
+.parties{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+.nouvel {
+    /* Assurez-vous de spécifier le chemin correct vers votre image */
+    background-image: url('images/add.png');
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir entièrement le bouton */
+    width: 100px; /* Définir une largeur pour le bouton */
+    height: 100px; /* Définir une hauteur pour le bouton */
+    border: none; /* Supprimer les bordures du bouton */
+    cursor: pointer; /* Afficher un curseur pointer au survol */
+    color: transparent; /* Rendre le texte transparent */
+    text-indent: -9999px; /* Déplacer le texte hors de la zone visible */
+    overflow: hidden; /* Masquer tout texte dépassant la zone visible */
+    white-space: nowrap; /* Empêcher le texte de se retourner à la ligne */
+}
+.visit {
+    /* Assurez-vous de spécifier le chemin correct vers votre image */
+    background-image: url('images/consulter.png');
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir entièrement le bouton */
+    background-position: center;
+    width: 30px; /* Définir une largeur pour le bouton */
+    height: 30px; /* Définir une hauteur pour le bouton */
+    border: none; /* Supprimer les bordures du bouton */
+    cursor: pointer; /* Afficher un curseur pointer au survol */
+    color: transparent; /* Rendre le texte transparent */
+    text-indent: -9999px; /* Déplacer le texte hors de la zone visible */
+    overflow: hidden; /* Masquer tout texte dépassant la zone visible */
+    white-space: nowrap; /* Empêcher le texte de se retourner à la ligne */
+}
+
+.rejoindre {
+    /* Assurez-vous de spécifier le chemin correct vers votre image */
+    background-image: url('images/rejoindre.png');
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir entièrement le bouton */
+    background-position: center;
+    width: 30px; /* Définir une largeur pour le bouton */
+    height: 30px; /* Définir une hauteur pour le bouton */
+    border: none; /* Supprimer les bordures du bouton */
+    cursor: pointer; /* Afficher un curseur pointer au survol */
+    color: transparent; /* Rendre le texte transparent */
+    text-indent: -9999px; /* Déplacer le texte hors de la zone visible */
+    overflow: hidden; /* Masquer tout texte dépassant la zone visible */
+    white-space: nowrap; /* Empêcher le texte de se retourner à la ligne */
+}
+.horloge {
+    /* Assurez-vous de spécifier le chemin correct vers votre image */
+    background-image: url('images/horloge.png');
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir entièrement le bouton */
+    background-position: center;
+    width: 30px; /* Définir une largeur pour le bouton */
+    height: 30px; /* Définir une hauteur pour le bouton */
+    border: none; /* Supprimer les bordures du bouton */
+    cursor: pointer; /* Afficher un curseur pointer au survol */
+    color: transparent; /* Rendre le texte transparent */
+    text-indent: -9999px; /* Déplacer le texte hors de la zone visible */
+    overflow: hidden; /* Masquer tout texte dépassant la zone visible */
+    white-space: nowrap; /* Empêcher le texte de se retourner à la ligne */
+}
+.termine {
+    /* Assurez-vous de spécifier le chemin correct vers votre image */
+    background-image: url('images/done.png');
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir entièrement le bouton */
+    background-position: center;
+    width: 30px; /* Définir une largeur pour le bouton */
+    height: 30px; /* Définir une hauteur pour le bouton */
+    border: none; /* Supprimer les bordures du bouton */
+    cursor: pointer; /* Afficher un curseur pointer au survol */
+    color: transparent; /* Rendre le texte transparent */
+    text-indent: -9999px; /* Déplacer le texte hors de la zone visible */
+    overflow: hidden; /* Masquer tout texte dépassant la zone visible */
+    white-space: nowrap; /* Empêcher le texte de se retourner à la ligne */
+}
+.quitter {
+    background-image: url('images/quitter.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.acceuil {
+    background-image: url('images/acceuil.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.lespieces{
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+
+}
+.pieces{
+    width: 20%;
+    height: 700px;
+/margin: 0 auto;/
+margin-bottom: 20px;
+/background-color: rgba(188, 201, 201, 0.678);/
+background-color: rgba(26, 26, 26, 0.678);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    border: 2px solid black;
+/border-radius: 50px;/
+}
+.bouton-annuler {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(10%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
